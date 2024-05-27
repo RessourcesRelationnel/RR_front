@@ -1,0 +1,110 @@
+/*.containerLogin {*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*   */
+/*    display: flex;*/
+/*}*/
+@media (min-width: 640px) {
+    .containerLogin {
+        height: 120vh;
+        display: flex;
+    }
+}
+
+@media (min-width: 1025px) {
+    .containerLogin {
+        display: flex;
+        height: 94vh;
+    }
+}
+/******************************************************************/
+
+.other_content {
+    background-color: rgb(255 255 255 / 15%);
+    backdrop-filter: blur(8px);
+    display: flex;
+    margin-top: 36vh;
+    flex-direction: column;
+    height: 76%;
+}
+@media (min-width: 640px) {
+    .other_content {
+        background-color: rgb(255 255 255 / 15%);
+        backdrop-filter: blur(8px);
+        display: flex;
+        margin-top: 32vh;
+        flex-direction: column;
+        height: 66%;
+    }
+}
+@media (min-width: 1025px) {
+    .other_content {
+        background-color: rgb(255 255 255 / 15%);
+        backdrop-filter: blur(8px);
+        display: flex;
+        margin-top: 14vh;
+        flex-direction: column;
+        height: 60vh;
+    }
+}
+
+/*--------------------------------------*/
+
+.connection {
+    width: 100%; /* w-full */
+    display: flex; /* flex */
+    justify-content: center; /* justify-center */
+    flex-direction: column; /* flex-col*/
+    align-items: center; /* items-center */
+}
+
+@media (min-width: 1025px) {
+    .connection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*************************************************************************/
+
+.My_count {
+    font-family: AdventPro;
+    text-shadow: 3px 5px 2px #000000;
+}
+
+.title_count,
+.title-connect {
+    width: 100%;
+    text-shadow: 3px 5px 2px #000000;
+}
+
+
+.fontButton {
+    font-family: AdventPro;
+}
+
+.colorText {
+    color: #2049d0;
+}
+
+.backgroundButton {
+    background-color: #f3fffa5c;
+}
+
+.v-line {
+    border-left: solid;
+    border-color: #49a078c4;
+    height: 30%;
+    left: 50%;
+    position: absolute;
+}
+
+@media screen and (max-width: 720px) {
+    .v-line {
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "marianne-extra-bold";
+    src: url('./assets/fonts/marianne/Marianne-ExtraBold.otf') format("opentype");
+}
+@font-face {
+    font-family: "marianne-bold";
+    src: url('./assets/fonts/marianne/Marianne-Bold.otf') format("opentype");
+}
+@font-face {
+    font-family: "marianne-light";
+    src: url('./assets/fonts/marianne/Marianne-Light.otf') format("opentype");
+}
+@font-face {
+    font-family: "marianne-medium";
+    src: url('./assets/fonts/marianne/Marianne-Medium.otf') format("opentype");
+}
+@font-face {
+    font-family: "marianne-regular";
+    src: url('./assets/fonts/marianne/Marianne-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: "marianne-thin";
+    src: url('./assets/fonts/marianne/Marianne-Thin.otf') format("opentype");
+}
+
+:root{
+    font-family: "marianne-regular", serif;
+}
+.extra-bold{
+    font-family: 'marianne-extra-bold', serif;
+}
+.bold{
+    font-family: 'marianne-bold', serif;
+}
+
+.light{
+    font-family: 'marianne-light', serif;
+}
+
+.thin{
+    font-family: 'marianne-bold', serif;
+}
